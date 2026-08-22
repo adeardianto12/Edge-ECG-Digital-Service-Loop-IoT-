@@ -1,0 +1,33 @@
+{
+  "evidence_class": "frozen external evaluation summaries; no per-record data",
+  "model": "P0/O1, M1/L2, Gate S2 int8 artifact",
+  "threshold": 0.49,
+  "svdb": {
+    "status": "complete",
+    "record_count": 78,
+    "support_aware_record_macro_f1": 0.6735906729,
+    "support_aware_record_macro_precision": 0.7411135908,
+    "support_aware_record_macro_recall": 0.715368334,
+    "record_macro_auprc": 0.8087352055,
+    "record_macro_brier": 0.0323411066,
+    "characterization": "isolated cross-database holdout; not a pristine blind test"
+  },
+  "nsrdb": {
+    "status": "complete",
+    "record_count": 18,
+    "annotated_normal_beats": 1729496,
+    "false_pvc_detections": 1113,
+    "duration_hours": 437.4933333,
+    "false_positive_rate": 0.0006435401,
+    "policy_v1_false_service_escalations_per_hour": 0.6057235158,
+    "record_bootstrap_upper_ci_per_hour": 1.638,
+    "limitation": "Aggregate target is not uniformly supported across records."
+  },
+  "automatic_rpeaks": {
+    "status": "complete",
+    "automatic_pvc_recall": 0.7762,
+    "reference_pvc_recall": 0.8741,
+    "automatic_pvc_f1": 0.8078,
+    "reference_pvc_f1": 0.8531
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "release": "v0.1.0-research-release",
+  "evidence_class": "verified software-freeze metadata; no raw data",
+  "gate": "Gate S2",
+  "status": "passed",
+  "candidate": "P0/O1",
+  "source_condition": "M1: MIT-BIH + INCART",
+  "lead_profile": "L2",
+  "parameter_count": 3506,
+  "runtime": {
+    "python": "3.10.x",
+    "tensorflow": "2.15.1",
+    "numpy": "1.26.4",
+    "scikit_learn": "1.5.2",
+    "wfdb": "4.1.2"
+  },
+  "preprocessing": {
+    "canonical_rate_hz": 360,
+    "window_samples": 300,
+    "window_center": "R peak",
+    "normalization": "per-channel, per-window zero mean and unit standard deviation"
+  },
+  "calibration": {
+    "method": "source- and record-balanced Platt scaling",
+    "threshold": 0.49,
+    "external_data_used": false
+  },
+  "artifacts": {
+    "int8_size_bytes": 11240,
+    "int8_tflite_sha256": "edea13aacdd5f6f9f94a3b73092f567f25b4dcade6133da4af7eb42aa2913776",
+    "calibration_sha256": "1525a1988a25021e3398a0cee5bef66263c30d31d24c159cdb730a94dcba59fa",
+    "freeze_manifest_sha256": "6a091daa2f32fbb45b33772ef8fda7029988741cf57adb18b4e5b3f336f1c6bd"
+  },
+  "gate_s2_metrics": {
+    "support_aware_record_macro_f1": 0.8335126481,
+    "support_aware_record_macro_recall": 0.9075030193,
+    "support_aware_record_macro_precision": 0.8336491215,
+    "record_macro_auprc": 0.8968934906,
+    "record_macro_brier": 0.0236299342,
+    "pvc_free_false_decisions": 83,
+    "float_int8_decision_agreement": 1.0
+  },
+  "limitations": [
+    "The original Gate S pointwise p99 equivalence criterion failed and remains disclosed.",
+    "SVDB is an isolated cross-database holdout, not a pristine blind test.",
+    "The artifact does not establish physical endpoint, transport, energy, or clinical efficacy evidence."
+  ]
+}

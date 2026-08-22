@@ -1,0 +1,45 @@
+# Local datasets and WFDB files; download them from DATASETS.md.
+data/
+*.dat
+*.hea
+*.atr
+
+# Private/raw experiment artifacts. Reviewed summaries live in results_public/.
+results/
+models/
+*.h5
+*.keras
+*.tflite
+*.pt
+*.npz
+*.npy
+
+# Local environments, caches, IDE state, and temporary files.
+__pycache__/
+*.py[cod]
+.idea/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+tmp/
+.tmp_ppt_experiment2_5/
+outputs/
+
+# Platform files and local secrets.
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Keep only intentional small public evidence files.
+results_public/*
+!results_public/README.md
+!results_public/*.json
+!results_public/*.csv
+!results_public/*.sha256

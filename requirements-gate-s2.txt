@@ -1,0 +1,8 @@
+# Exact runtime family used by the passed Gate S2 evaluation.
+# Python: 3.10.x
+tensorflow==2.15.1
+numpy==1.26.4
+scipy>=1.12,<2
+scikit-learn==1.5.2
+wfdb==4.1.2
+paho-mqtt>=2,<3

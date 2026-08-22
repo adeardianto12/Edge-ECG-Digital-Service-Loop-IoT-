@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Edge ECG Digital Service Loop Research Project"
+message: "Please cite the associated manuscript and this repository when using the code."
+type: software
+version: 0.1.0
+date-released: 2026-08-21
+license: Apache-2.0
+repository-code: "https://github.com/<owner>/edge-ecg-digital-service-loop"
+keywords:
+  - ECG
+  - PVC
+  - edge computing
+  - digital service loop
+  - medical IoT
+  - reproducible research

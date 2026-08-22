@@ -1,0 +1,2 @@
+# General development environment. This is not the exact Gate S2 environment.
+-r requirements-dev.txt

